@@ -32,13 +32,17 @@ body {
   display: none;
 }
 
+.topnav-right {
+  float: right;
+}
+
 @media screen and (max-width: 768px) {
   .nav-bar a:not(:first-child) {
     display: none;
   }
 
   .nav-bar a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 
@@ -48,7 +52,7 @@ body {
 
   .nav-bar.responsive .icon {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
   }
 
