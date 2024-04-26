@@ -36,6 +36,36 @@ body {
   float: right;
 }
 
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+main > div {
+  border-radius: 8px;
+  width: 420px;
+  height: 420px;
+  background-image: url('https://i.pinimg.com/originals/b5/aa/75/b5aa75f6d501b5c71e5ee7f622557c24.jpg');
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 62px;
+  font-weight: 700;
+  align-items: center;
+}
+
+main > div:hover {
+  opacity: 0.6;
+  transition: .5s ;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .nav-bar a:not(:first-child) {
     display: none;
